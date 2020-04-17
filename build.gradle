@@ -46,10 +46,3 @@ springBoot {
 configurations {
     compile.exclude module: "spring-boot-starter-tomcat"
 }
-
-
-/*
-task runJava(type: JavaExec, dependsOn: 'classes') {
-    main = "com.intelligrape.gradle.Application1"
-    classpath = sourceSets.main.runtimeClasspath
-}*/
